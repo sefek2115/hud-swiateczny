@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xmastab",
+  "version": "1.0.0",
+  "name": "Świąteczny Tab",
+  "description": "Świąteczna lista graczy (Tab): lampki, śnieg, cukrowe laski, choinki i odliczanie do Wigilii.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "xmastab.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25"
+  }
+}
